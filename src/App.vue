@@ -65,9 +65,7 @@
       </filter>
     </defs>
   </svg>
-  <audio autoplay>
-    <source src="/startup.ogg" type="audio/ogg" />
-  </audio>
+  <iframe src="/startup.ogg" allow="autoplay" id="audio"></iframe>
   <Footer/>
 </template>
 
