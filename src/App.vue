@@ -65,7 +65,9 @@
       </filter>
     </defs>
   </svg>
-  <iframe src="/startup.ogg" allow="autoplay" id="audio"></iframe>
+  <audio controls autoplay>
+    <source src="/startup.ogg" type="audio/ogg" />
+  </audio>
   <Footer/>
 </template>
 
@@ -120,8 +122,8 @@ export default {
           "mech": "Post Nut Clarity"
         },
         {
-          "callsign": "Jeebs",
-          "alias": "Dr. Sigmond Jeebies",
+          "callsign": "Cnidocyte",
+          "alias": "Lukoshas Warlow",
           "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
           "corpro": "GMS",
           "frame": "Everest",
